@@ -1,0 +1,11 @@
+use_frameworks!
+platform :ios, '11.0'
+target 'TNSStitch' do
+pod 'StitchSDK', '~> 5.0.0'
+pod 'StitchLocalMongoDBService', '~> 5.0.0'
+end
+
+target 'TNSStitchTests' do
+  pod 'StitchSDK', '~> 5.0.0'
+  pod 'StitchLocalMongoDBService', '~> 5.0.0'
+    end

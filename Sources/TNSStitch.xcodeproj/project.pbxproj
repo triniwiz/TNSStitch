@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D12D3678E8EC3E140836ABC /* Pods_TNSStitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082317FBF883D7148CB18524 /* Pods_TNSStitchTests.framework */; };
+		4025FDC887D0E319A705DB03 /* Pods_TNSStitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188DFB6CF628C740204E26FD /* Pods_TNSStitch.framework */; };
+		F1C22A42222F8598004E60F7 /* TNSStitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C22A38222F8597004E60F7 /* TNSStitch.framework */; };
+		F1C22A47222F8598004E60F7 /* TNSStitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C22A46222F8598004E60F7 /* TNSStitchTests.swift */; };
+		F1C22A49222F8598004E60F7 /* TNSStitch.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C22A3B222F8597004E60F7 /* TNSStitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C22A53222F87F5004E60F7 /* TNSStitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C22A52222F87F5004E60F7 /* TNSStitch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C22A43222F8598004E60F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C22A2F222F8597004E60F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C22A37222F8597004E60F7;
+			remoteInfo = TNSStitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037A9125C8D91DD15D92324E /* Pods-TNSStitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNSStitchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNSStitchTests/Pods-TNSStitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		082317FBF883D7148CB18524 /* Pods_TNSStitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNSStitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188DFB6CF628C740204E26FD /* Pods_TNSStitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNSStitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2432B38A0933B924116E68EB /* Pods-TNSStitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNSStitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNSStitch/Pods-TNSStitch.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF827DA077ED0387544D971 /* Pods-TNSStitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNSStitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNSStitch/Pods-TNSStitch.release.xcconfig"; sourceTree = "<group>"; };
+		F1C22A38222F8597004E60F7 /* TNSStitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TNSStitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C22A3B222F8597004E60F7 /* TNSStitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNSStitch.h; sourceTree = "<group>"; };
+		F1C22A3C222F8597004E60F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C22A41222F8598004E60F7 /* TNSStitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNSStitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C22A46222F8598004E60F7 /* TNSStitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNSStitchTests.swift; sourceTree = "<group>"; };
+		F1C22A48222F8598004E60F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C22A52222F87F5004E60F7 /* TNSStitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNSStitch.swift; sourceTree = "<group>"; };
+		F8C72A86E30EE983630252B1 /* Pods-TNSStitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNSStitchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNSStitchTests/Pods-TNSStitchTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C22A35222F8597004E60F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4025FDC887D0E319A705DB03 /* Pods_TNSStitch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C22A3E222F8598004E60F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C22A42222F8598004E60F7 /* TNSStitch.framework in Frameworks */,
+				2D12D3678E8EC3E140836ABC /* Pods_TNSStitchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D131DFBF337D5CE4553AB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188DFB6CF628C740204E26FD /* Pods_TNSStitch.framework */,
+				082317FBF883D7148CB18524 /* Pods_TNSStitchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0D9DC41267CE669E3B1ED50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2432B38A0933B924116E68EB /* Pods-TNSStitch.debug.xcconfig */,
+				9BF827DA077ED0387544D971 /* Pods-TNSStitch.release.xcconfig */,
+				037A9125C8D91DD15D92324E /* Pods-TNSStitchTests.debug.xcconfig */,
+				F8C72A86E30EE983630252B1 /* Pods-TNSStitchTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1C22A2E222F8597004E60F7 = {
+			isa = PBXGroup;
+			children = (
+				F1C22A3A222F8597004E60F7 /* TNSStitch */,
+				F1C22A45222F8598004E60F7 /* TNSStitchTests */,
+				F1C22A39222F8597004E60F7 /* Products */,
+				E0D9DC41267CE669E3B1ED50 /* Pods */,
+				8D131DFBF337D5CE4553AB23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C22A39222F8597004E60F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C22A38222F8597004E60F7 /* TNSStitch.framework */,
+				F1C22A41222F8598004E60F7 /* TNSStitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C22A3A222F8597004E60F7 /* TNSStitch */ = {
+			isa = PBXGroup;
+			children = (
+				F1C22A3B222F8597004E60F7 /* TNSStitch.h */,
+				F1C22A3C222F8597004E60F7 /* Info.plist */,
+				F1C22A52222F87F5004E60F7 /* TNSStitch.swift */,
+			);
+			path = TNSStitch;
+			sourceTree = "<group>";
+		};
+		F1C22A45222F8598004E60F7 /* TNSStitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C22A46222F8598004E60F7 /* TNSStitchTests.swift */,
+				F1C22A48222F8598004E60F7 /* Info.plist */,
+			);
+			path = TNSStitchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F1C22A33222F8597004E60F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C22A49222F8598004E60F7 /* TNSStitch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F1C22A37222F8597004E60F7 /* TNSStitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C22A4C222F8598004E60F7 /* Build configuration list for PBXNativeTarget "TNSStitch" */;
+			buildPhases = (
+				0CC86EDAFC7433C9C5C9D741 /* [CP] Check Pods Manifest.lock */,
+				F1C22A33222F8597004E60F7 /* Headers */,
+				F1C22A34222F8597004E60F7 /* Sources */,
+				F1C22A35222F8597004E60F7 /* Frameworks */,
+				F1C22A36222F8597004E60F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNSStitch;
+			productName = TNSStitch;
+			productReference = F1C22A38222F8597004E60F7 /* TNSStitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1C22A40222F8598004E60F7 /* TNSStitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C22A4F222F8598004E60F7 /* Build configuration list for PBXNativeTarget "TNSStitchTests" */;
+			buildPhases = (
+				D859DC25480B3A6286D46438 /* [CP] Check Pods Manifest.lock */,
+				F1C22A3D222F8598004E60F7 /* Sources */,
+				F1C22A3E222F8598004E60F7 /* Frameworks */,
+				F1C22A3F222F8598004E60F7 /* Resources */,
+				6B1A1909B9E8CEBAD611703B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C22A44222F8598004E60F7 /* PBXTargetDependency */,
+			);
+			name = TNSStitchTests;
+			productName = TNSStitchTests;
+			productReference = F1C22A41222F8598004E60F7 /* TNSStitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C22A2F222F8597004E60F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Osei Fortune";
+				TargetAttributes = {
+					F1C22A37222F8597004E60F7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					F1C22A40222F8598004E60F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F1C22A32222F8597004E60F7 /* Build configuration list for PBXProject "TNSStitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1C22A2E222F8597004E60F7;
+			productRefGroup = F1C22A39222F8597004E60F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C22A37222F8597004E60F7 /* TNSStitch */,
+				F1C22A40222F8598004E60F7 /* TNSStitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C22A36222F8597004E60F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C22A3F222F8598004E60F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC86EDAFC7433C9C5C9D741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TNSStitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1A1909B9E8CEBAD611703B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TNSStitchTests/Pods-TNSStitchTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MongoMobile/MongoMobile.framework",
+				"${BUILT_PRODUCTS_DIR}/MongoSwift/MongoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCore/StitchCore.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCoreLocalMongoDBService/StitchCoreLocalMongoDBService.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCoreSDK/StitchCoreSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchLocalMongoDBService/StitchLocalMongoDBService.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchRemoteMongoDBService/StitchRemoteMongoDBService.framework",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework.dSYM",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework.dSYM",
+				"${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework",
+				"${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework.dSYM",
+				"${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework",
+				"${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoMobile.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreLocalMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreRemoteMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchLocalMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchRemoteMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bson.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/bson.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongoc.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/mongoc.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongo_embedded.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/mongo_embedded.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongoc_embedded.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/mongoc_embedded.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNSStitchTests/Pods-TNSStitchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D859DC25480B3A6286D46438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TNSStitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C22A34222F8597004E60F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C22A53222F87F5004E60F7 /* TNSStitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C22A3D222F8598004E60F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C22A47222F8598004E60F7 /* TNSStitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C22A44222F8598004E60F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C22A37222F8597004E60F7 /* TNSStitch */;
+			targetProxy = F1C22A43222F8598004E60F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1C22A4A222F8598004E60F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1C22A4B222F8598004E60F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1C22A4D222F8598004E60F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2432B38A0933B924116E68EB /* Pods-TNSStitch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TNSStitch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fitcom.TNSStitch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C22A4E222F8598004E60F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF827DA077ED0387544D971 /* Pods-TNSStitch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TNSStitch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fitcom.TNSStitch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1C22A50222F8598004E60F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037A9125C8D91DD15D92324E /* Pods-TNSStitchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNSStitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fitcom.TNSStitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C22A51222F8598004E60F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C72A86E30EE983630252B1 /* Pods-TNSStitchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNSStitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fitcom.TNSStitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C22A32222F8597004E60F7 /* Build configuration list for PBXProject "TNSStitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C22A4A222F8598004E60F7 /* Debug */,
+				F1C22A4B222F8598004E60F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C22A4C222F8598004E60F7 /* Build configuration list for PBXNativeTarget "TNSStitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C22A4D222F8598004E60F7 /* Debug */,
+				F1C22A4E222F8598004E60F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C22A4F222F8598004E60F7 /* Build configuration list for PBXNativeTarget "TNSStitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C22A50222F8598004E60F7 /* Debug */,
+				F1C22A51222F8598004E60F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C22A2F222F8597004E60F7 /* Project object */;
+}
